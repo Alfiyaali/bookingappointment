@@ -7,9 +7,10 @@ window.onload = function(){
             var date = document.getElementById('date').value;
             var time = document.getElementById('time').value;
             let myObj = {name, mail, phone,date,time};
+
+            let myObj_serialized = JSON.stringify(myObj);
             
-            localStorage.setItem("myObj",myObj);
-            console.log(localStorage)
+            localStorage.setItem("myObj",myObj_serialized);
         });
     }
 }
