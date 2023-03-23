@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Appointment App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="first-cont cont">
+            <img src="img/download.jpg" alt="">
+        </div>
+        <div class="second-cont cont">
+            <div class="heading">
+                <div class="call">Call</div>
+                <div class="book">Book a Call</div>
+            </div>
+
+            <p style="text-align: center; font-size: 15px;">Book a call slot and our representative will call you within 1hr of selected time.</p>
+            <hr>
+
+
+            <div class="container-form">
+                <form action="" method="POST" id="contactform">
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="fname">Name: </label>
+                    </div>
+                    <div class="col-50">
+                      <input type="text" id="name" name="name" placeholder="Your name..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="lname">Email:</label>
+                    </div>
+                    <div class="col-50">
+                      <input type="email" id="mail" name="lastname" placeholder="Your last name..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="lname">Phone:</label>
+                    </div>
+                    <div class="col-50">
+                      <input type="number" id="phone" name="lastname" placeholder="Your last name..">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-30">
+                        <label for="">Time for Call:</label>
+                    </div>
+                    <div class="col-70">
+                        <input type="date" id="date"> <input type="time" id="time">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <input type="submit" value="GET A CALL" onclick="submit()">
+                  </div>
+                </form>
+              </div>
+        </div>
+        <div class="third-cont cont">
+            <div class="btn">
+                <input type="button" value="SCHEDULE A CALL">
+              </div>
+              <div class="btn">
+                <input type="button" value="HIRE WITH US">
+              </div>
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
